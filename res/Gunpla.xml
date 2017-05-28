@@ -1,0 +1,54 @@
+<PRODUCT>
+    <MODEL>
+        <NAME>HG ARIOS GUNDAM GNHW/M</NAME>
+        <SERIE>HG Gundam OO</SERIE>
+        <SCALE>1/144</SCALE>
+        <PART>1</PART>
+        <COST>690</COST>
+        <IMAGES>
+            <IMAGE>G0159937.jpg</IMAGE>
+            <IMAGE>1_9_327.png</IMAGE>
+        </IMAGES>
+        <VDO>https://www.youtube.com/embed/_vN2kCHCjdM</VDO>
+        <BACKGROUND>yellow.jpg</BACKGROUND>
+    </MODEL>
+    <MODEL>
+        <NAME>HG CHERUDIM GUNDAM GNHW/R</NAME>
+        <SERIE>HG Gundam OO</SERIE>
+        <SCALE>1/144</SCALE>
+        <PART>1</PART>
+        <COST>690</COST>
+        <IMAGES>
+            <IMAGE>4543112594563box_3.jpg</IMAGE>
+            <IMAGE>1_9_349.png</IMAGE>
+        </IMAGES>
+        <VDO>https://www.youtube.com/embed/25KOCg-VHVg</VDO>
+        <BACKGROUND>green.jpg</BACKGROUND>
+    </MODEL>
+    <MODEL>
+        <NAME>HG SERAVEE GUNDAM GNHW/B</NAME>
+        <SERIE>HG Gundam OO</SERIE>
+        <SCALE>1/144</SCALE>
+        <PART>1</PART>
+        <COST>690</COST>
+        <IMAGES>
+            <IMAGE>product-image-url.jpg</IMAGE>
+            <IMAGE>bandai_hg_seravee_gundam_gnhwb_i.png</IMAGE>
+        </IMAGES>
+        <VDO>https://www.youtube.com/embed/beBd4VvdrCQ</VDO>
+        <BACKGROUND>white.jpg</BACKGROUND>
+    </MODEL>
+    <MODEL>
+        <NAME>HG 00 RAISER CONDENSER TYPE</NAME>
+        <SERIE>HG Gundam OO</SERIE>
+        <SCALE>1/144</SCALE>
+        <PART>1</PART>
+        <COST>760</COST>     
+        <IMAGES>
+            <IMAGE>6_6_396.jpg</IMAGE>
+            <IMAGE>71VE9XyPtlL._SL1324_.png</IMAGE>
+        </IMAGES>
+        <VDO>https://www.youtube.com/embed/8r6hjlxWEaA</VDO>
+        <BACKGROUND>blue.jpg</BACKGROUND>
+    </MODEL>
+</PRODUCT>

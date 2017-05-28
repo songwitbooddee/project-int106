@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imperiumz</title>
+        <meta charset="UTF-8">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/indexCSS.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+
+        <style type="text/css">
+            #nav img{
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+
+        </style>
+
+        <script src="js/ajax.js"></script>
+    </head>
+    <body onload="home()">
+         <!--data-vide-bg ="../res/space.mp4" data-vide-options="loop: true, muted:true,position: 0% 0%;-->
+        <div class="container-fluid">
+            <div class="row navBarmain">
+                <audio control-preload="auto" id="audio">
+                    <source src="res/mouse.mp3" type="audio/mpeg">
+                </audio>
+                <audio control-preload="auto" id="mouse">
+                    <source src="res/22.mp3" type="audio/mpeg">
+                </audio>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 logoPicture"><a style="cursor: pointer"><img class="logo animated flash" onmouseenter="mousein(),logoImg(this)" onclick="home()" src="res/logoWeb.png"></a></div>
+                <div class="col-md-2"><a style="cursor: pointer" class="navBar animated flash" onmouseenter="mousein(),bigFont(this)" onmouseleave="smallFont(this)" onclick="loadData(0)">ARIOS</a></div>
+                <div class="col-md-2"><a style="cursor: pointer" class="navBar animated flash" onmouseenter="mousein(),bigFont(this)" onmouseleave="smallFont(this)" onclick="loadData(1)">CHERUDIM</a></div>
+                <div class="col-md-2"><a style="cursor: pointer" class="navBar animated flash" onmouseenter="mousein(),bigFont(this)" onmouseleave="smallFont(this)" onclick="loadData(2)">SERAVEE</a></div>
+                <div class="col-md-2"><a style="cursor: pointer" class="navBar animated flash" onmouseenter="mousein(),bigFont(this)" onmouseleave="smallFont(this)" onclick="loadData(3)">00 RAISER</a></div>
+                <!--<div class="col-md-1"></div>-->
+            </div>
+        <div id="home">
+            <div class="row">
+                <div class="col-md-4"><img class="homePic" src="res/Untitled-2.png"></div>
+                <div class="col-md-4 detailHome">ความมั่งคั่ง ชื่อเสียง และอำนาจ ผู้ที่ครอบครองทุกอย่างก็คือ 
+                    ราชาโจรสลัด โกล โรเจอร์ คำนึงที่เขาพูดไว้ก่อนตาย ทำให้ผู้คนมุ่งสู่ท้องทะเล "สมบัติของฉันนะหรอ ถ้าอยากได้ก็ไปเอาซี่ ไปหาเอาเลย
+                     ฉันเอาทุกอย่างไปไว้ที่นั่นหมดแล้ว และหนึ่งในนั้นคือ Imperiumz X Dogz" และโลกได้เข้าสู่ยุคสมัยของโจรสลัดแล้ว</div>
+                <div class="col-md-4"><img class="homePic" src="res/Untitled-3.png"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><img class="homePic" src="res/Untitled-5.png"></div>
+                <div class="col-md-4 logoPicHomeDiv"><img class="logoPicHome" src="res/Untitled-1.png"></div>
+                <div class="col-md-4"><img class="homePic" src="res/Untitled-6.png"></div>
+            </div>
+        </div>
+            <div id="contentAll" class="row detailContent">
+                <div class="col-md-1"></div>
+                <div class="col-md-4" id="productPic">
+                    <div id="nav">
+                    </div>
+                    <div id="show">
+                    </div>
+                    <div id="clip">
+                        <iframe id="vdogundam"width="100%" height="350">
+                        </iframe>
+                    </div>
+                    <span style="clear: both"></span>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5 bgdetail" id="bgdetail">
+                    <div class="detail" id="detail"></div>
+                </div>
+                <div class="col-md-1"></div>
+                </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("bgdetail").style.display="none"
+            document.getElementById("productPic").style.display="none"
+        </script>
+    </body>
+</hmtl>
